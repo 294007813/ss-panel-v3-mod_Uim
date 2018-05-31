@@ -313,7 +313,7 @@
 <script src="/assets/public/js/jquery.qrcode.min.js"></script>
 <script>
 	{if URL::SSCanConnect($user, $mu)}
-	var text_qrcode = '{URL::getItemUrl($ss_item, 1)}';
+	var text_qrcode = "{URL::getItemUrl($ss_item, 1)}";
 	jQuery('#ss-qr').qrcode({
 		"text": text_qrcode
 	});

@@ -16,10 +16,17 @@
         <link rel="shortcut icon" href="/favicon.ico"/>
         <link rel="bookmark" href="/favicon.ico"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sspuic/p@0x04/public/assets/css/main.css"/>
-        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sspuic/p@0x04/public/assets/css/noscript.css" /></noscript>   
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/294007813/ss-panel-v3-mod_Uim@1.2.1/public/assets/css/main.css"/>
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sspuic/p@0x01/public/assets/css/noscript.css" /></noscript>   
   </head>
-  
+  <style>
+    #bg:after{
+    	background-image: url(https://cdn.jsdelivr.net/gh/294007813/staticForCDN@0.1/img/252abeec9985ac01.jpg);
+    }
+    code {
+      background: rgba(255, 255, 255, 0.5);
+	}
+  </style>
        <body>
 			<div id="wrapper">
               <!--首页开始-->
@@ -51,6 +58,7 @@
                                 <li><a href="#1">简介</a></li>
 					            <li><a href="/user">用户中心</a></li>
 								<li><a href="#5">下载</a></li>
+                              	<li><a href="/" target="_Blank">快速使用</a></li>
                         </ul>
 						</nav>
                               {else}
@@ -70,7 +78,7 @@
 								<li><a href="/auth/login">登录</a></li>
 								<li><a href="/auth/register">注册</a></li>
                               	<li><a href="#5">下载</a></li>
-								<li><a href="/staff">STAFF</a></li>
+								<li><a href="/" target="_Blank">快速使用</a></li>
                               
                            </ul>
 						</nav>
@@ -82,7 +90,13 @@
                       <!--标签1开始-->
                       <article id="1">
                       <h2 class="major">简介</h2>
-                      <p>「ホワイトアルバムの季節」が、また、やってきた。</p></article>
+                      <!--<p>「ホワイトアルバムの季節」が、また、やってきた。</p><p>又到了「白色相簿的季節」</p>-->
+                        <p>欢迎来到翻墙组VPN！注册可免费体验高速的科学上网！</p>
+                        <P>注册即送1G流量,邀请他人注册成功即送2G流量;每日签到可免费获得10~50MB流量！</P>
+                        <p>还有各种优惠活动：1元、3元、10元等不限时流量套餐</p>
+                        <p>以后会开通跟多节点以供任意选择</p>
+                      
+                      </article>
 					  <!--
 					  简介修改示例: 
 					  <p> 123</p>
@@ -151,7 +165,7 @@
                               </div>
                      <!-- 版权底部 -->
                       <footer id="footer">
-                   <p class="copyright">&copy;2015-2017 {$config["appName"]}</p>
+                   <p class="copyright">&copy;2010-2018 {$config["appName"]}</p>
                       </footer>
               <!-- 版权结束 -->
 			 </div>

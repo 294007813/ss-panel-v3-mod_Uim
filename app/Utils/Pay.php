@@ -98,13 +98,16 @@ class Pay
     {
 
             return '
+            			<p class="card-heading">支付宝充值</p>
                         <p><i class="icon icon-lg">monetization_on</i>&nbsp;余额&nbsp;<font color="red" size="5">'.$user->money.'</font>&nbsp;元</p>
 						<p><img src="/images/qianbai-4.png" height="250" width="202" /></p>
 						<div class="form-group form-group-label">
-						<label class="floating-label" for="price">充值金额</label>
+						<label class="floating-label" for="price">请输入充值金额(元)</label>
                         <input id="type" class="form-control" name="amount" />
 						</div>
-                        <a class="btn btn-flat waves-attach" id="urlChange" ><span class="icon">check</span>&nbsp;充值</a>
+                        <a class="btn btn-primary waves-attach" id="urlChange" >
+                        <!-- <span class="icon">check</span>&nbsp; -->
+                        点击充值</a>
 ';
     }
 	private static function yftpay_html($user)

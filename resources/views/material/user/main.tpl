@@ -286,6 +286,14 @@
 			font-weight: 300;
 			color: #fff;
 		}
+      
+        body{
+              background-image: url(https://cdn.jsdelivr.net/gh/294007813/staticForCDN@0.1/img/desk_cg_23172.jpg);
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: cover;
+              z-index: 1;
+      	}
 	</style>
 
 
@@ -431,7 +439,7 @@
 						<ul class="menu-collapse collapse in" id="ui_menu_help">
                           	<li>
 								<a href="/user/code">
-									<i class="icon icon-lg">code</i>&nbsp;充值
+									<i class="icon icon-lg">local_atmmd</i>&nbsp;充值
 								</a>
 							</li>
 
